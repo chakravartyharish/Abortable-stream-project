@@ -1,0 +1,18 @@
+{
+  "extends": "tsconfig/react-library.json",
+  "include": ["."],
+  "exclude": ["dist", "node_modules"],
+  // source: https://typestrong.org/ts-node/docs/imports/
+  "compilerOptions": {
+    "types": ["node", "jest"],
+
+    "module": "ES2020",
+    "lib": ["ESNext", "DOM"],
+    "target": "ESNext",
+    "esModuleInterop": true
+  },
+
+  "ts-node": {
+    "esm": true
+  }
+}

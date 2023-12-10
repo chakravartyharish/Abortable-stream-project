@@ -1,0 +1,15 @@
+# Ignore all .log files
+*.log
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore build directory
+build/
+
+# Ignore .env files
+.env
+
+# Ignore other specific files
+some-directory/some-file.ext
+
