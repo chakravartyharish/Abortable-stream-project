@@ -1,0 +1,1 @@
+Clone the project and run the command tsc ./packages/abortable-stream/src/runScript.ts --outDir ./packages/abortable-stream/dist followed by node ./packages/abortable-stream/dist/runScript.js. In order to run the several tests use command like with file name pnpm test abortableGenerator.test.ts after installation of all packages using pnpm install for package.json file. 
